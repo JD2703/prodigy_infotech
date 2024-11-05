@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="video-container">
+    <!-- Embedded Rain Aesthetic YouTube Video -->
+    <iframe class="video-bg" src="https://www.youtube.com/embed/8plwv25NYRo?autoplay=1&mute=1&controls=0&loop=1&playlist=8plwv25NYRo" 
+      frameborder="0" allow="autoplay" title="Rain Aesthetic Background"></iframe>
+  </div>
+
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div id="stopwatch" class="stopwatch-display">00:00:00.000</div>
+
+    <div class="controls">
+      <button id="start-pause-btn">Start</button>
+      <button id="reset-btn">Reset</button>
+      <button id="lap-btn" disabled>Lap</button>
+    </div>
+
+    <div class="laps">
+      <h3>Laps</h3>
+      <ul id="laps-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
